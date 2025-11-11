@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Biblioteca: Mentes Creativas de 9nos</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>📘 Biblioteca: Mentes Creativas de 9nos</h1>
+    <p>Sube tus trabajos escolares y descubre los proyectos de tus compañeros</p>
+  </header>
+
+  <main>
+    <section id="upload-section">
+      <h2>📤 Subir nuevo trabajo</h2>
+      <form id="uploadForm">
+        <input type="text" id="nombre" name="nombre" placeholder="Tu nombre completo" required>
+        <input type="text" id="titulo" name="titulo" placeholder="Título del trabajo" required>
+        <input type="url" id="enlace" name="enlace" placeholder="Enlace al archivo (Drive o similar)" required>
+        <button type="submit">Enviar trabajo</button>
+      </form>
+      <p id="msg"></p>
+    </section>
+
+    <section id="tabla-section">
+      <h2>📄 Trabajos publicados</h2>
+      <iframe src="https://docs.google.com/spreadsheets/d/1KDWEYQ-FepLJ-nG-9QT4J7MgN5iWfgPK-FBfJkB9y08/pubhtml?widget=true&amp;headers=false" width="100%" height="400"></iframe>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 Mentes Creativas de 9nos | Creado por Elian</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
